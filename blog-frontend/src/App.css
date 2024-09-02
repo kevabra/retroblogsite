@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: #e0e0e0;
+  background-color: #333; /* Dark background */
+  line-height: 1.6;
+}
+
+/* Container Styles */
+.homepage-container {
+  padding: 2rem;
+  background-color: #222; /* Darker container background */
+  border-radius: 0.5rem;
+}
+
+/* Header Styles */
+header h1 {
+  font-size: 2.5rem;
+  color: #ffcc00; /* Retro yellow */
+  font-family: "Lucida Console", Monaco, monospace;
+  text-shadow: 2px 2px 4px #000; /* Retro text shadow */
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #444;
+  border-radius: 0.5rem;
+  background-color: #444; /* Dark background for cards */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #ff6600; /* Retro orange */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e55d00; /* Darker retro orange */
+}
+
+.btn-info {
+  background-color: #00bcd4; /* Retro teal */
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #00a8c6; /* Darker retro teal */
+}
+
+.btn-warning {
+  background-color: #ffcc00; /* Retro yellow */
+  border: none;
+}
+
+.btn-warning:hover {
+  background-color: #e0b800; /* Darker retro yellow */
+}
+
+.btn-secondary {
+  background-color: #666; /* Retro gray */
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #555; /* Darker retro gray */
+}
+
+/* Alert Styles */
+.alert {
+  margin-bottom: 1rem;
+  background-color: #444; /* Dark background for alerts */
+  color: #e0e0e0; /* Light text color */
+  border: 1px solid #555;
+}
+
+/* Form Styles */
+.form-control {
+  border-radius: 0.25rem;
+  background-color: #555; /* Dark background for input */
+  color: #e0e0e0; /* Light text color */
+  border: 1px solid #666;
+}
+
+.form-control::placeholder {
+  color: #999; /* Lighter placeholder text */
+}
+
+/* Custom Retro Styles */
+.retro-title {
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.retro-input {
+  background-color: #555;
+  color: #e0e0e0;
+  border: 1px solid #666;
+}
+
+.retro-card {
+  border: 1px solid #555;
+}
+
+.retro-card-title {
+  color: #ffcc00; /* Retro yellow */
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Blog Content Styles */
+.card-text {
+  color: #b0b0b0; /* Gray text color for blog content */
+}
